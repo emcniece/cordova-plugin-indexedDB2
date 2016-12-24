@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-indexeddb2",
+  "version": "1.0.0",
+  "description": "Cordova IndexedDB plugin v2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emcniece/cordova-plugin-indexedDB2.git"
+  },
+  "keywords": [
+    "cordova"
+  ],
+  "author": "Eric McNiece",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/emcniece/cordova-plugin-indexedDB2/issues"
+  },
+  "homepage": "https://github.com/emcniece/cordova-plugin-indexedDB2#readme"
+}

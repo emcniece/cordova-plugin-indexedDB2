@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+           id="cordova-plugin-indexeddb2"
+      version="1.0.0">
+  <name>IndexedDB polyfill</name>
+
+  <description>IndexedDB plugin for Apache Cordova</description>
+  <license>GPL v3.0</license>
+  <keywords>cordova, indexedDB, db, database</keywords>
+  <repo>https://github.com/emcniece/cordova-plugin-indexedDB2/</repo>
+  <issue>https://github.com/emcniece/cordova-plugin-indexedDB2/issues</issue>
+
+  <platform name="ios">
+    <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
+      <runs />
+    </js-module>
+  </platform>
+
+  <platform name="android">
+    <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
+      <runs />
+    </js-module>
+  </platform>
+
+  <platform name="windows">
+  <!-- Needed for Windows Phone 8.1 support -->
+    <dependency id="cordova-plugin-websql"/>
+    <js-module src="www/requireWebSql.js" name="RequireWebSql">
+      <runs />
+    </js-module>
+    <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
+      <runs />
+    </js-module>
+  </platform>
+</plugin>
