@@ -2,16 +2,20 @@
   "name": "cordova-plugin-indexeddb2",
   "version": "1.0.0",
   "description": "Cordova IndexedDB plugin v2",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emcniece/cordova-plugin-indexedDB2.git"
   },
   "keywords": [
-    "cordova"
+    "cordova",
+    "indexeddb",
+    "indexeddb2",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-browser"
   ],
   "author": "Eric McNiece",
   "license": "GPL-3.0",
