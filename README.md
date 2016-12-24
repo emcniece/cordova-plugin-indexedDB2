@@ -2,6 +2,8 @@ IndexedDB plugin for Apache Cordova
 ==================================
 Implements [Indexed Database API](http://www.w3.org/TR/IndexedDB/) support for Apache Cordova apps based on [IndexedDBShim](https://github.com/axemclion/IndexedDBShim) implementation. This is an upgraded version of the unmaintained https://github.com/Microsoft/cordova-plugin-indexedDB.
 
+**IndexedDBShim: v2.2.2**
+
 Supports Android, iOS, Windows, and browser.
 
 ### Sample usage ###
