@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-indexeddb2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova IndexedDB plugin v2",
   "repository": {
     "type": "git",
