@@ -12,19 +12,17 @@ xmlns:android="http://schemas.android.com/apk/res/android"
   <issue>https://github.com/emcniece/cordova-plugin-indexedDB2/issues</issue>
 
   <platform name="ios">
-    <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
+    <js-module src="www/indexeddbshim.min.js" name="indexeddbshim">
       <runs />
     </js-module>
-    <js-module src="www/IndexedDBShim.min.js.map" name="IndexedDBShimMap">
-    </js-module>
+    <asset src="www/indexeddbshim.min.js.map" target="plugins/cordova-plugin-indexeddb2/www/indexeddbshim.min.js.map" />
   </platform>
 
   <platform name="android">
     <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
       <runs />
     </js-module>
-    <js-module src="www/IndexedDBShim.min.js.map" name="IndexedDBShimMap">
-    </js-module>
+    <asset src="www/indexeddbshim.min.js.map" target="plugins/cordova-plugin-indexeddb2/www/indexeddbshim.min.js.map" />
   </platform>
 
   <platform name="windows">
@@ -33,10 +31,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <js-module src="www/requireWebSql.js" name="RequireWebSql">
       <runs />
     </js-module>
-    <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
+    <js-module src="www/IndexedDBShim.min.js">
       <runs />
     </js-module>
-    <js-module src="www/IndexedDBShim.min.js.map" name="IndexedDBShimMap">
-    </js-module>
+    <asset src="www/indexeddbshim.min.js.map" target="plugins/cordova-plugin-indexeddb2/www/indexeddbshim.min.js.map" />
   </platform>
 </plugin>
