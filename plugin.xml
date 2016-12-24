@@ -15,11 +15,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
       <runs />
     </js-module>
+    <js-module src="www/IndexedDBShim.min.js.map" name="IndexedDBShimMap">
+    </js-module>
   </platform>
 
   <platform name="android">
     <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
       <runs />
+    </js-module>
+    <js-module src="www/IndexedDBShim.min.js.map" name="IndexedDBShimMap">
     </js-module>
   </platform>
 
@@ -31,6 +35,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     </js-module>
     <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
       <runs />
+    </js-module>
+    <js-module src="www/IndexedDBShim.min.js.map" name="IndexedDBShimMap">
     </js-module>
   </platform>
 </plugin>
